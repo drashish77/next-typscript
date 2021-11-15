@@ -113,7 +113,12 @@
 .logo {
   height: 1em;
 }
-
+.card_wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
 @media (max-width: 600px) {
   .grid {
     width: 100%;
